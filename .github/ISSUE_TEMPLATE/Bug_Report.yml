@@ -4,7 +4,6 @@ description: Creat a report to help as improve
 title: "[Bug]: "
 labels: ["bug", "triage"]
 assignees: '40637323'
----
 body:  
 - type: markdown
     attributes:
