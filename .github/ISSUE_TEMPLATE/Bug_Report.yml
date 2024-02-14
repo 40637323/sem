@@ -74,7 +74,7 @@ body:
         - device
         - OS 
         - Browser
-        -Version
+        - Version
 - type: textarea
   id: additional-context
   attributes:
@@ -91,4 +91,3 @@ body:
       options:
         - label: I agree to follow this project's Code of Conduct
           required: true
-        
