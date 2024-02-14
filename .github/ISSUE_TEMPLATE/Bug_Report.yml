@@ -1,6 +1,6 @@
 ---
 name: Bug Report
-about: Creat a report to help as improve
+description: Creat a report to help as improve
 title: "[Bug]: "
 labels: ["bug", "triage"]
 assignees: '40637323'
