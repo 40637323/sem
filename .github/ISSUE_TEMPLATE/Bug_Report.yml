@@ -38,6 +38,7 @@ body:
       label: ScreenShot for Relevant log output of Bug
       description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
       render: shell
+      placeholder: put screenshots
 - type: textarea
   id: expected-behavior
   attributes:
