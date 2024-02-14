@@ -7,21 +7,24 @@ assignees: '40637323'
 
 ---
 
-**Describe the bug**
-A clear and concise description of what the bug is.
+**Describe the bug** - 
+A clear and concise description of what the bug is and when the bug happens.
 
-**To Reproduce**
-Steps to reproduce the behavior:
+**To Reproduce** - 
+Steps to reproduce the behavior:For example
 1. Go to '...'
 2. Click on '....'
 3. Scroll down to '....'
 4. See error
 
-**Expected behavior**
+**Screenshots** - 
+If applicable, add screenshots to help explain your problem.
+
+**Expected behavior** - 
 A clear and concise description of what you expected to happen.
 
-**Screenshots**
-If applicable, add screenshots to help explain your problem.
+**Actual Behavior** - 
+A clear and conise description of what was the acutal result to happen.
 
 **Desktop (please complete the following information):**
  - OS: [e.g. iOS]
@@ -34,5 +37,5 @@ If applicable, add screenshots to help explain your problem.
  - Browser [e.g. stock browser, safari]
  - Version [e.g. 22]
 
-**Additional context**
+**Additional context** - 
 Add any other context about the problem here.
