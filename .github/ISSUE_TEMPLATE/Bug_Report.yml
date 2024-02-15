@@ -57,7 +57,7 @@ body:
   attributes:
     label: Desktop
     description: What desktop are you seeing the problem on?|
-    placeholder:
+    placeholder: |
        - OS [e.g. iOS]
        - Browser [e.g. chrome, safari]
        - Version [e.g. 22]
@@ -73,7 +73,7 @@ body:
   attributes:
     label: Smartphone
     description: What smartphone are you seeing the problem on?|
-    placeholder:
+    placeholder: |
          - Device [e.g. iPhone6]
          - OS [e.g. iOS8.1]
          - Browser [e.g. stock browser, safari]
