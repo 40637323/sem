@@ -56,15 +56,11 @@ body:
   id: desktop
   attributes:
     label: Desktop
-    description: What desktop are you seeing the problem on?|
+    description: What desktop are you seeing the problem on?
     placeholder: |
        - OS [e.g. iOS]
        - Browser [e.g. chrome, safari]
        - Version [e.g. 22]
-    value: |
-        - OS:
-        - Browser:
-        - Veresion:
     render: markdown
   validations:
     required: false
@@ -72,17 +68,12 @@ body:
   id: smartphones
   attributes:
     label: Smartphone
-    description: What smartphone are you seeing the problem on?|
+    description: What smartphone are you seeing the problem on?
     placeholder: |
          - Device [e.g. iPhone6]
          - OS [e.g. iOS8.1]
          - Browser [e.g. stock browser, safari]
          - Version [e.g. 22]
-    value: |
-        - Device:
-        - OS:
-        - Browser:
-        - Veresion:
     render: markdown
   validations:
     required: false
