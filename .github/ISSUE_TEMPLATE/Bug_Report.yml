@@ -60,13 +60,13 @@ body:
         - **OS**: iOS
         - **Browser**: chrome, safari
         - **Version**: 22
-    value: |
+      value: |
         - OS:
         - Browser:
         - Veresion:
     render: markdown
-  validations:
-    required: false
+    validations:
+      required: false
 - type: textarea
   id: smartphones
   attributes:
