@@ -33,11 +33,16 @@ body:
   validations:
     required: true
 - type: textarea
-  id: screenshots
   attributes:
-      label: ScreenShot for Relevant log output of Bug
-      description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
-      placeholder: put screenshots
+    label: Steps To Reproduce
+    description: Steps to reproduce the behavior.
+    placeholder: |
+      1. In this environment...
+      1. With this config...
+      1. Run '...'
+      1. See error...
+  validations:
+    required: false
 - type: textarea
   id: expected-behavior
   attributes:
