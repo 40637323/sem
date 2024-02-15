@@ -2,7 +2,7 @@ name: Bug Reporting System
 description: Creat a report to help as improve
 title: "[Bug]: "
 labels: bug
-projects: PROJECT-OWNER/PROJECT-NUMBER
+projects: [PROJECT-OWNER/PROJECT-NUMBER]
 assignees: 'HeinHN, PaPaMyintAung03, WaiYan083, 40637326phoo, 40637323, SuThiriHtun'
 body:  
 - type: markdown
