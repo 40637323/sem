@@ -65,8 +65,8 @@ body:
         - Browser:
         - Veresion:
     render: markdown
-    validations:
-      required: false
+  validations:
+    required: false
 - type: textarea
   id: smartphones
   attributes:
@@ -83,8 +83,8 @@ body:
         - Browser:
         - Veresion:
     render: markdown
-    validations:
-      required: false
+  validations:
+    required: false
 - type: textarea
   id: additional-context
   attributes:
