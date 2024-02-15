@@ -1,8 +1,8 @@
-name: Bug Report
+name: Bug Reporting System
 description: Creat a report to help as improve
 title: "[Bug]: "
 labels: bug
-assignees: '40637323'
+assignees: 'HeinHN, PaPaMyintAung03, WaiYan083, 40637326phoo, 40637323, SuThiriHtun'
 body:  
 - type: markdown
   attributes:
@@ -51,37 +51,37 @@ body:
       placeholder: tell us what you want to see!
   validations:
     required: true
-- type: dropdown
-  id: browsers
-  attributes:
-      label: What browsers are you seeing the problem on?
-      multiple: true
-      options:
-        - Firefox
-        - Chrome
-        - Safari
-        - Microsoft Edge
-- type: dropdown
+- type: textarea
   id: desktop
   attributes:
-      label: What desktop are you seeing the problem on?
-      multiple: true
-      options:
-        - Windows
-        - Linux
-        - Mac
-- type: textarea
-  attributes:
-    label: Environment
-    description: |
+    label: Desktop
+    description: What desktop are you seeing the problem on?|
       examples:
-        - **OS**: Ubuntu 20.04
-        - **Node**: 13.14.0
-        - **npm**: 7.6.3
+        - **OS**: iOS
+        - **Browser**: chrome, safari
+        - **Version**: 22
     value: |
         - OS:
-        - Node:
-        - npm:
+        - Browser:
+        - Veresion:
+    render: markdown
+  validations:
+    required: false
+- type: textarea
+  id: smartphones
+  attributes:
+    label: Smartphone
+    description: What smartphone are you seeing the problem on?|
+      examples:
+        - **Device**: iPhone6
+        - **OS**: iOS8.1
+        - **Browser**: stock browser, safari
+        - **Version**: 22
+    value: |
+        - Device:
+        - OS:
+        - Browser:
+        - Veresion:
     render: markdown
   validations:
     required: false
