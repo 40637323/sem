@@ -56,11 +56,11 @@ body:
   attributes:
     label: Desktop
     description: What desktop are you seeing the problem on?|
-      examples:
+    examples:
         - **OS**: iOS
         - **Browser**: chrome, safari
         - **Version**: 22
-      value: |
+    value: |
         - OS:
         - Browser:
         - Veresion:
