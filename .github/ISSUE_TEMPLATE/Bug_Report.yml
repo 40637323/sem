@@ -2,6 +2,7 @@ name: Bug Reporting System
 description: Creat a report to help as improve
 title: "[Bug]: "
 labels: bug
+projects: ["DevOps_Gp5"]
 assignees: 'HeinHN, PaPaMyintAung03, WaiYan083, 40637326phoo, 40637323, SuThiriHtun'
 body:  
 - type: markdown
@@ -55,7 +56,7 @@ body:
   id: desktop
   attributes:
     label: Desktop
-    description: What desktop are you seeing the problem on?|
+    description: What desktop are you seeing the problem on?
       examples:
        - OS: [e.g. iOS]
        - Browser [e.g. chrome, safari]
